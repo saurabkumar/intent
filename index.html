@@ -32,6 +32,7 @@ var options = {
        //"card":"1",
        //"wallet":"0",
        //"upi":"0",
+
 config: {
           display: {
             blocks: {
@@ -41,7 +42,7 @@ config: {
                 instruments: [
                   {
                     method: "upi",
-                    apps: ["gpay"],
+                    // apps: ["gpay"],
                     flows: ["collect", "intent", "qr"],
                   },
                 ],
@@ -52,8 +53,7 @@ config: {
               show_default_blocks: true,
             },
           },
-        }, 
-
+        },
  //"name": "Acme Corp",
     //"description": "Test Transaction",
     //"order_id":"order_HpPAmo4hK1hoSA",//This is a sample Order ID. Pass the `id` obtained in the response of Step 1
